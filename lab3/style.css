@@ -1,0 +1,119 @@
+body{
+    background-color: #f1f1f1;
+    font-family: "Raleway";
+    margin: 0px;
+
+}
+.container{
+    text-align: center;
+    padding: 20px;
+    font-size: large;
+}
+.author{
+    background-color: black;
+    color: aliceblue;
+    padding: 3px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    gap: 30px;
+}
+.entry{
+    margin: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.entry-content{
+    padding: 15px;
+}
+.about{
+    margin: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.about-content{
+    padding: 10px;
+}
+.posts{
+    margin: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.comments{
+    display: flex;
+    justify-content: space-between;
+}
+.posts-ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.posts-ul li {
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.posts-ul img {
+    float: left;
+    margin-right: 15px;
+}
+.w3-tag{
+    background-color: gainsboro;
+    padding: 4px;
+    margin: 3px;
+    text-align: center;
+}
+.tags{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:10px;
+}
+footer{
+    background-color: #616161;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.pre{
+    
+        border: none;
+        padding: 14px 26px;
+        vertical-align: middle;
+        text-align: center;
+        background-color: #353637;
+        color: #aca9a9;
+      
+}
+.next{
+    
+    border: none;
+    padding: 14px 26px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #161616;
+    color: #f5ecec;
+  
+}
+.more{
+    
+    padding: 15px 20px;
+    vertical-align: middle;
+    text-align: center;
+    border: thin solid rgb(138, 140, 142);
+    border-radius: 0px;
+  
+}
+.dot{
+    background-color: #161616;
+    color: #f1f1f1;
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
