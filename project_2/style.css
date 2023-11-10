@@ -1,0 +1,33 @@
+#container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+#game {
+    width: 70%   ;
+    height: 200px;
+    background-color: #f7f7f7;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+#dino {
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+
+.cactus {
+    width: 20px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+#score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
